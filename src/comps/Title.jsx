@@ -6,7 +6,7 @@ const Title = () => {
   return (
     <div className="title">
       <img className = "logo" src={logo}/>
-      <h1>IE(I) CSE</h1>
+      <h1>IE(I) CSE Student chapter, Punjab</h1>
       <h2>Event Gallery</h2>
       <p>"Exploring Boundless Horizons:A Journey Through IEI CSE Event Spectacle!!✨"</p>
     </div>

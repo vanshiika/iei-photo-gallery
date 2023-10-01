@@ -4,11 +4,11 @@ import UploadForm from './comps/uploadform';
 import ImageGrid from './comps/ImageGrid';
 import Modal from './comps/Modal';
 
-function App() {
+function EventGallery() {
   const [selectedImg, setSelectedImg] = useState(null); 
   
   return (
-    <div className="App">
+    <div className="EventGallery">
       <Title/>
       <UploadForm/>
       <ImageGrid setSelectedImg={setSelectedImg}/>
@@ -19,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default EventGallery;

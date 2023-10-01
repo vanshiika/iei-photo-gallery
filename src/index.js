@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './eventgal.css';
+import EventGallery from './EventGallery';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <EventGallery />
   </React.StrictMode>,
   document.getElementById('root')
 );
